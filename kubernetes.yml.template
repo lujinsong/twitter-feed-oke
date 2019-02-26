@@ -9,7 +9,6 @@ metadata:
   labels:
 
     commit: ${WERCKER_GIT_COMMIT}
-    color: blue
 
 spec:
 
@@ -30,7 +29,7 @@ spec:
         app: twitter-feed
 
         commit: ${WERCKER_GIT_COMMIT}
-        colors: blue
+        color: blue
 
     spec:
 
@@ -103,7 +102,7 @@ spec:
   selector:
 
     app: twitter-feed
-   
+    color: blue
 
   type: ClusterIP
 
