@@ -10,8 +10,6 @@ metadata:
 
     commit: ${WERCKER_GIT_COMMIT}
 
-    color: blue
-
 spec:
 
   replicas: 2
@@ -31,6 +29,7 @@ spec:
         app: twitter-feed
 
         commit: ${WERCKER_GIT_COMMIT}
+        color: blue
 
     spec:
 
